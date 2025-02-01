@@ -1,0 +1,17 @@
+{
+  "name": "NODE-APP",
+  "version": "1.0.0",
+  "main": "src/Index.js",
+  "scripts": {
+    "start": "node src/Index.js",
+    "start-dev": "nodemon src/Index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "3.1.9",
+    "redis": "^4.7.0"
+  }
+}
