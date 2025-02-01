@@ -33,16 +33,17 @@ services:
 
   redis:
     image: redis
-<<<<<<< HEAD
-  nginx:
-    image: nginx:stable-alpine
-    ports:
-      - "8080:80"
-    volumes:
-      - F:/Docker/Node-app/nginx/default.conf:/etc/nginx/conf.d/default.conf 
-    depends_on:
-     - node-app    
-=======
+
+
+   #nginx:
+   # image: nginx:stable-alpine
+   # ports:
+   #   - "8080:80"
+   # volumes:
+   #   - F:/Docker/Node-app/nginx/default.conf:/etc/nginx/conf.d/default.conf 
+   # depends_on:
+   #  - node-app    
+#=======
  # nginx:
  #   image: nginx:stable-alpine
  #   ports:
@@ -51,7 +52,7 @@ services:
  #     - /Docker/Node-app/nginx/default.conf:/etc/nginx/conf.d/default.conf 
   #  depends_on:
  #    - node-app    
->>>>>>> 0e85ae455b9e99473eba561ca190a4004bfca9dd
+
 
   
 
